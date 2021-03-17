@@ -1,10 +1,10 @@
 +++
 date = "2020-01-01T18:30:00Z"
 lastmod = "2020-01-01T18:30:00Z"
-author = "axiom"
+author = "7hacker"
 title = "Example Post 3"
 subtitle = "Example Post 3. Lorem est tota propiore conpellat pectoribus de pectora summo."
-feature = "image/page-default.webp"
+
 tags = ["axiom", "hugo", "jamstack"]
 categories = ["axiom", "hugo", "jamstack"]
 +++

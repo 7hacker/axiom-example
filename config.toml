@@ -1,12 +1,12 @@
-baseURL = "https://axiom-example.netlify.app"
+baseURL = "https://signetblocks.com"
 
-title = "Axiom Example"
+title = "SIGNET BLOCKS"
 languageCode = "en-us"
 defaultContentLanguage = "en"
 
 theme = "axiom"
 
-paginate = 2
+paginate = 10
 canonifyURLs = false
 summaryLength = 40
 rssLimit = 100
@@ -19,28 +19,28 @@ posts = "/:filename"
 
 [params]
 mainSections = ["posts"]
-copyrightYear = 2019
+copyrightYear = 2021
 # Go Reference time: Mon Jan 2 15:04:05 MST 2006
 dateFormat = "Jan 2, 2006 3:04PM"
 highlight = "dark"
 
 [params.brand]
-domain = "example.com"
-email = "info@example.com"
+domain = "signetblocks.com"
+email = "nirmalthacker@gmail.com"
 
 [params.social]
-facebook = "https://www.facebook.com/user_or_page"
-github = "https://github.com/user"
-instagram = "https://instagram.com/user"
-linkedin = "https://www.linkedin.com/in/user"
-pinterest = "https://www.pinterest.com/user"
-stackoverflow = "https://stackoverflow.com/users/user"
-twitter = "https://twitter.com/axiomtheme"
-youtube = "https://www.youtube.com/user"
-footer = ["twitter", "github", "instagram"]
+# facebook = "https://www.facebook.com/user_or_page"
+github = "https://github.com/7hacker"
+# instagram = "https://instagram.com/user"
+# linkedin = "https://www.linkedin.com/in/user"
+# pinterest = "https://www.pinterest.com/user"
+# stackoverflow = "https://stackoverflow.com/users/user"
+twitter = "https://twitter.com/_7hacker_"
+# youtube = "https://www.youtube.com/user"
+footer = ["twitter", "github"]
 
 [params.services]
-googleAnalyticsId = "UA-160259978-2"
+googleAnalyticsId = ""
 googleTagManagerId = ""
 googleAdsId = ""
 googleAdsenseId = ""
@@ -53,17 +53,17 @@ facebookPixel = ""
 disqusShortname = ""
 
 [params.logo]
-inline = true
-path = "image/brand/logo.svg"
+inline = false
+path = ""
 
 [params.image]
 width = "2048"
 height = "1024"
-faviconIco = "favicon.ico"
+faviconIco = "image/brand/favicon.png"
 faviconAlt = "image/brand/favicon.png"
-icon1To1 = "image/brand/icon-1-1.png"
-icon2To1 = "image/brand/icon-2-1.png"
-default = "image/page-default.webp"
+# icon1To1 = "image/brand/icon-1-1.png"
+# icon2To1 = "image/brand/icon-2-1.png"
+default = "image/sb_2048x1024.png"
 
 [params.font]
 type = ""
@@ -75,7 +75,7 @@ provider = "local"
 type = "image"
 
 [params.cloudinary]
-host = "https://res.cloudinary.com/CLOUD_NAME/"
+host = ""
 version = ""
 image = "image/upload/"
 raw = "raw/upload/"
@@ -126,18 +126,28 @@ tabWidth = 2
 
 [menu]
 [[menu.main]]
+url = "https://google.com"
+name = "Issues Reported"
+weight = 1
+
+[[menu.main]]
 url = "/posts/"
 name = "Posts"
+weight = 2
+
+[[menu.main]]
+url = "/contact/"
+name = "Contact"
+weight = 3
+
+[[menu.foot]]
+url = "https://google.com"
+name = "Issues Reported"
 weight = 1
 
 [[menu.foot]]
 url = "/posts/"
 name = "Posts"
-weight = 1
-
-[[menu.foot]]
-url = "/about/"
-name = "About"
 weight = 2
 
 [[menu.foot]]
@@ -145,10 +155,15 @@ url = "/contact/"
 name = "Contact"
 weight = 3
 
-[[menu.foot]]
-url = "/privacy/"
-name = "Privacy"
-weight = 4
+# [[menu.foot]]
+# url = "/about/"
+# name = "About"
+# weight = 2
+
+# [[menu.foot]]
+# url = "/privacy/"
+# name = "Privacy"
+# weight = 4
 
 [languages]
 [languages."en"]

@@ -2,4 +2,4 @@
 weight = 3
 +++
 
-__Products__: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+__Method__: Use Signet to test open source wallets, block explorers, mempool explorers, lightning network, lighting apps etc. Report Issues found directly at the Github page. Blog about findings and other technical revelations as required.
