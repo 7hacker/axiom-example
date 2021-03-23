@@ -126,7 +126,7 @@ tabWidth = 2
 
 [menu]
 [[menu.main]]
-url = "https://google.com"
+url = "https://docs.google.com/spreadsheets/d/1l2OeWwU2Nb1o8dGUvyS9biP2Z0quEWPqrnWNKEcGEbo/edit?usp=sharing"
 name = "Issues Reported"
 weight = 1
 
@@ -141,7 +141,7 @@ name = "Contact"
 weight = 3
 
 [[menu.foot]]
-url = "https://google.com"
+url = "https://docs.google.com/spreadsheets/d/1l2OeWwU2Nb1o8dGUvyS9biP2Z0quEWPqrnWNKEcGEbo/edit?usp=sharing"
 name = "Issues Reported"
 weight = 1
 
