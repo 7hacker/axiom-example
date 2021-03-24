@@ -29,12 +29,12 @@ There's many kinds of exciting tests one can dig into, such as memory profiling,
 
 1. User flows that run through the set of features offered by the software.
 
-2. Interfaces that exist between other software / libraries leveraged where implementation details can vary.
+2. Interfaces that exist between other software / libraries where implementation details can vary.
 
 
 ### Leverage signet
 
-Leverage bitcoin signet to generate unique and predictable network conditions in a safe & sandboxed environment. [To learn more about signet go here](/signet-101).
+Leverage bitcoin signet to generate unique and predictable network conditions in a safe & sandboxed environment. [Learn more about signet here](/signet-101).
 
 ## Reporting
 
@@ -48,7 +48,7 @@ Rather than choose to test with specific feature branches or release branches, S
 
 ### Replicable steps, logs, screenshots
 
-Signet Blocks strives for providing developers with as much data to assist in quick resolution of Issues that are found:
+Signet Blocks strives to provide developers with sufficient data to assist in quick resolution of Issues that are found:
 
 1. Enumerated scenario & steps that lead to the Issue reported
 
