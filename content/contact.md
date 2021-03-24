@@ -13,4 +13,4 @@ summary = "Testing bitcoin with Signet"
 
 ## Support this project
 
-Thanks for considering to support this project. I'll add my links to accept support soon.
+Thanks for considering to support this project. I'll add my links to accept support, soon.
